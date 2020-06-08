@@ -1,0 +1,39 @@
+appId: com.electronCraTsLernaWebapck.tml
+productName: electronCraTsLernaWebapck
+artifactName: electronCraTsLernaWebapck-${version}.${ext}
+asar: true
+
+mac:
+  category: public.app-category.productivity
+  target:
+    - dmg
+    - zip
+
+dmg:
+  contents:
+    - { x: 130, y: 220 }
+    - { x: 410, y: 220, type: link, path: /Applications}
+
+win:
+  target:
+    - target: zip
+    - target: nsis
+      arch:
+        - ia32
+
+nsis:
+  oneClick: false
+  perMachine: true
+  createDesktopShortcut: true
+  createStartMenuShortcut: true
+  allowToChangeInstallationDirectory: true
+
+linux:
+  target:
+    - AppImage
+    - deb
+    - zip
+  category: Utility
+
+directories:
+  buildResources: build/resources/

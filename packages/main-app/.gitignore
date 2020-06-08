@@ -1,0 +1,6 @@
+static/render/
+node_modules/
+dist/
+release/*
+!release/.gitkeep
+*.log
