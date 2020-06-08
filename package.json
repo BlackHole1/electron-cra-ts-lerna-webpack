@@ -4,6 +4,9 @@
   "workspaces": {
     "packages": [
       "packages/*"
+    ],
+    "nohoist": [
+      "render-app/react-hot-loader"
     ]
   },
   "devDependencies": {

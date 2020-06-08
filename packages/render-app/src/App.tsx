@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import { hot } from 'react-hot-loader';
 
 function App() {
   return (
@@ -23,4 +24,10 @@ function App() {
   );
 }
 
-export default App;
+export default (() => {
+  if (process.env.NODE_ENV === 'development') {
+    return hot(module)(App);
+  }
+
+  return App;
+})();
