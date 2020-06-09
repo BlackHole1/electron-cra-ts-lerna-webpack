@@ -6,8 +6,8 @@
       "packages/*"
     ],
     "nohoist": [
-      "render-app/@hot-loader/react-dom",
-      "render-app/react-hot-loader",
+      "renderer-app/@hot-loader/react-dom",
+      "renderer-app/react-hot-loader",
       "main-app/electron",
       "main-app/electron-webpack",
       "main-app/electron-webpack-ts",
