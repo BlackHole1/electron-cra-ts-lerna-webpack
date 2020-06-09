@@ -1,6 +1,26 @@
-## electron-cra-ts-lerna-webpack
+<h2 align="center">
+  electron-cra-ts-lerna-webpack
+</h2>
 
-Develop the electron application immediately without waiting
+<h3 align="center">
+  Develop the <code>electron</code> application immediately without waiting
+</h3>
+
+<p align="center">
+  <a href="https://github.com/BlackHole1/electron-cra-ts-lerna-webpack/issues">
+    <img src="https://img.shields.io/github/issues/BlackHole1/electron-cra-ts-lerna-webpack?style=flat-square" alt="Github Issues"/>
+  </a>
+    <a href="https://twitter.com/Free_BlackHole">
+    <img src="https://img.shields.io/twitter/follow/Free_BlackHole?style=flat-square" alt="Twitter"/>
+  </a>
+  <a href="https://github.com/BlackHole1/electron-cra-ts-lerna-webpack/blob/master/LICENSE">
+    <img src="https://img.shields.io/github/license/BlackHole1/electron-cra-ts-lerna-webpack?style=flat-square" alt="GitHub license"/>
+    </a>
+  <br />
+</p>
+
+
+[中文文档](https://github.com/BlackHole1/electron-cra-ts-lerna-webpack/blob/master/README-ZH.md)
 
 ### tech stack
 
@@ -30,7 +50,7 @@ Develop the electron application immediately without waiting
 #### install 
 
 ```bash
-git clone electron-cra-ts-lerna-webpack -deptch 1 newProject
+git clone git@github.com:BlackHole1/electron-cra-ts-lerna-webpack.git --depth=1 newProject
 cd newProject
 yarn
 ```

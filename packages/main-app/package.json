@@ -4,14 +4,14 @@
   "private": true,
   "description": "",
   "main": "src/index.ts",
-  "homepage": "https://bugs.cc",
+  "homepage": "https://github.com/BlackHole1/electron-cra-ts-lerna-webpack",
   "author": {
     "email": "158blackhole@gmail.com",
     "name": "Black-Hole",
     "url": "https://bugs.cc/"
   },
   "repository": {
-    "url": "https://bugs.cc/"
+    "url": "https://github.com/BlackHole1/electron-cra-ts-lerna-webpack"
   },
   "scripts": {
     "start": "electron-webpack dev",
